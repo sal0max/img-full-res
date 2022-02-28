@@ -1,0 +1,10 @@
+# JetBrains
+*.iml
+.idea/
+
+# OS
+._*
+.DS_Store
+Thumbs.db
+
+build/

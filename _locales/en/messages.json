@@ -1,0 +1,14 @@
+{
+  "extensionName": {
+    "message": "ImgFullRes",
+    "description": "The name of the add-on. NOT TO BE TRANSLATED!"
+  },
+  "extensionDescription": {
+    "message": "Open images on supported sites in full resolution.",
+    "description": "The description in about:addons."
+  },
+  "pageActionTitle": {
+    "message": "Open image in full resolution",
+    "description": "The hover text of the icon inside the address bar."
+  }
+}

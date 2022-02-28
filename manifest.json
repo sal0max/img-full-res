@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+  "version": "1.0.0",
+
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
+
+  "author": "Salomax",
+  "homepage_url": "https://github.com/sal0max/img-full-res",
+
+  "icons": {
+    "48": "images/ic_wallpaper.svg",
+    "96": "images/ic_wallpaper.svg"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ],
+
+  "page_action": {
+    "default_icon": "images/ic_wallpaper_black.svg",
+    "default_title": "__MSG_pageActionTitle__"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  }
+
+}
