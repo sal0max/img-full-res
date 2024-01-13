@@ -6,6 +6,6 @@ browser.runtime.sendMessage({
 
 function getUrl() {
     return document
-        .querySelector(".photo-show__img")
+        .querySelector("#copyrightTooltipContainer>*>img")
         .getAttribute("src")
 }
